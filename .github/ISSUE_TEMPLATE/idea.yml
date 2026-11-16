@@ -1,0 +1,11 @@
+name: Idea or request
+description: Something FAST could do, or do better
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What you'd like FAST to do, and what you'd use it for in the game.
+    validations:
+      required: true

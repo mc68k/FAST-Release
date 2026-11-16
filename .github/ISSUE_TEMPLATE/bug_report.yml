@@ -1,0 +1,36 @@
+name: Problem report
+description: Something in FAST doesn't work, or FAST closed unexpectedly
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: FAST version
+      description: In FAST's title bar or Help → About, for example "0.35.0 ALPHA build 130".
+    validations:
+      required: true
+  - type: dropdown
+    id: store
+    attributes:
+      label: Your copy of Alien: Isolation
+      options:
+        - Steam
+        - Epic Games
+        - GOG
+        - Microsoft Store / Xbox app
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead. The bank and sound (or line) you were working on help a lot.
+    validations:
+      required: true
+  - type: textarea
+    id: crash
+    attributes:
+      label: Crash report (if FAST closed unexpectedly)
+      description: FAST offers it the next time it starts ("Copy report"). Paste it here, or drag the file in. Your user name is already taken out of it.
+      render: text
