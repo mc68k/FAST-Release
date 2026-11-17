@@ -14,6 +14,7 @@ FAST opens *Alien: Isolation*'s sound banks so you can listen to every sound and
 
 - **Listen and export.** Every sound and voice line in the game, with its original file name, subtitle, size and volume. Export as WAV.
 - **Replace sounds and voice lines** with your own WAV, OGG, FLAC or MP3. FAST converts them to the game's Wwise Vorbis format, keeps subtitle timing, and can trim, fade and match the original's loudness. Drag a file onto the window to replace.
+- **Mix samples into a sound.** Keep the game's sound and lay your own audio into it: radio static under a line, an extra hiss on the alien, a different word in a sentence. Each sample is a block on a lane that you move, trim, fade and set the volume of; it mixes in, or takes the place of what's under it with a smooth crossfade. Looping sounds stay seamless.
 - **Subtitles.** Read every subtitle in all nine languages, search lines by what's said, give a line another subtitle or your own text, and move lines between missions with their subtitles.
 - **Reverbs and effects.** Change the game's room reverbs with plain sliders (length, room size, how much reverb), edit EQ, delay, compressor and the radio distortion, or give a room a recorded convolution reverb, designed in FAST or from your own impulse response.
 - **Find anything.** Search every bank for a sound or event by name or ID, and dig up audio the game never uses.
