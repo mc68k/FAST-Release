@@ -4,7 +4,7 @@
 
 **[Download the latest version](https://github.com/mc68k/FAST-Release/releases/latest)** (Windows 10 or 11, 64-bit)
 
-![FAST's main window: a dialogue bank open, with its voice lines, subtitles and the Changes panel](images/fast-main-window.png)
+![FAST's main window in the dark theme: a dialogue bank open with its voice lines and subtitles, and the Changes panel showing your own changes and an imported mod's](images/fast-main-window.png)
 
 FAST opens *Alien: Isolation*'s sound banks so you can listen to every sound and voice line, replace them with your own, change subtitles and tune the game's reverbs, without unpacking anything by hand. It writes the game's own formats directly, keeps the original of every file it changes, and can put everything back.
 
@@ -19,6 +19,8 @@ FAST opens *Alien: Isolation*'s sound banks so you can listen to every sound and
 - **Reverbs and effects.** Change the game's room reverbs with plain sliders (length, room size, how much reverb), edit EQ, delay, compressor and the radio distortion, or give a room a recorded convolution reverb, designed in FAST or from your own impulse response.
 - **Find anything.** Search every bank for a sound or event by name or ID, and dig up audio the game never uses.
 - **DLC maps.** The DLC maps' sound packages are listed and editable like any other bank.
+- **Share your work as a mod.** Mods → Export my changes as a mod… packs everything you changed into one small `.fastmod` file: only the changed parts, so a replaced voice line makes a mod of a few KB. Import other people's mods into your own work; the Changes panel shows which change came from which mod, and takes a mod back out.
+- **FAST Mod Installer** for players: a small separate program that puts `.fastmod` mods on the game and takes them off again. It finds the game, checks it's the version the mod was made for, keeps the originals, handles several mods at once (and asks when two change the same sound), and leaves nothing behind when the last one comes off.
 - **Undo anything.** The Changes panel lists every change down to the setting, and restores the originals, one change or all of them.
 - **Guided tours.** Help → Show me how walks you through your first changes on your own game files, each with an Undo at the end.
 - **Finds the game** in Steam, Epic Games, GOG and the Microsoft Store, and launches it through its store to try your changes.
@@ -29,6 +31,10 @@ FAST opens *Alien: Isolation*'s sound banks so you can listen to every sound and
 1. Download the zip from the [latest release](https://github.com/mc68k/FAST-Release/releases/latest) and unzip it anywhere, for example `C:\Tools\FAST`. There's nothing to install. Keep the files together: FAST.exe needs the DLLs and folders next to it.
 2. Start `FAST.exe`. It finds the game and offers to open its sound folder.
 3. Take a tour (FAST offers them; they're also in Help → Show me how), or open `FAST-guide.html`, the illustrated guide (Help → User guide, or F1 over anything in FAST).
+
+## Just want to play a mod?
+
+Download `FAST-Mod-Installer-<version>.zip` from the [latest release](https://github.com/mc68k/FAST-Release/releases/latest), unzip it and start `FAST Mod Installer.exe`. Click **Install mod…** and choose the `.fastmod` file. You don't need FAST itself. Its README has the details.
 
 ## Sound names
 
@@ -46,6 +52,6 @@ Please [open an issue](https://github.com/mc68k/FAST-Release/issues/new/choose).
 
 FAST is made by **DougTheSquirrel**. Thanks to Matt Filer for OpenCAGE and the sound names.
 
-FAST uses [Qt](https://www.qt.io/) (LGPL v3), [vgmstream](https://github.com/vgmstream/vgmstream), [libogg and libvorbis](https://xiph.org/), [dr_flac and dr_mp3](https://github.com/mackron/dr_libs), and the GCC and MinGW-w64 runtime libraries. Their licenses are in the `licenses` folder of every download.
+FAST uses [Qt](https://www.qt.io/) (LGPL v3), [vgmstream](https://github.com/vgmstream/vgmstream), [libogg and libvorbis](https://xiph.org/), [dr_flac and dr_mp3](https://github.com/mackron/dr_libs), [miniz](https://github.com/richgel999/miniz), [JSON for Modern C++](https://github.com/nlohmann/json), and the GCC and MinGW-w64 runtime libraries. Their licenses are in the `licenses` folder of every download.
 
 FAST is a fan-made tool and is not affiliated with or endorsed by the makers of *Alien: Isolation* or Wwise. *Alien: Isolation* and Wwise are the property of their respective owners.
