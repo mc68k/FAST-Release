@@ -46,7 +46,7 @@ Once a week FAST checks this page for a newer version and asks before installing
 
 ## Reporting problems
 
-Please [open an issue](https://github.com/mc68k/FAST-Release/issues/new/choose). If FAST closed unexpectedly, it saved a crash report and offers it the next time it starts; attaching it helps a lot (your user name is already taken out of it).
+Please [open an issue](https://github.com/mc68k/FAST-Release/issues/new/choose). If FAST closed unexpectedly, it saved a crash report and offers it the next time it starts; attaching it helps a lot (your user name is already taken out of it). Help → About FAST → **Copy version info** puts your FAST, Windows and game versions on the clipboard, ready to paste into the issue.
 
 ## Credits and licenses
 
